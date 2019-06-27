@@ -2,6 +2,7 @@
 [![Release](https://img.shields.io/github/release/roots/trellis.svg?style=flat-square)](https://github.com/roots/trellis/releases)
 [![Build Status](https://img.shields.io/travis/roots/trellis.svg?style=flat-square)](https://travis-ci.org/roots/trellis)
 
+<h6 style="color:red">Boilerplate use only. Do not make changes to this project.</h6>
 Ansible playbooks for setting up a LEMP stack for WordPress.
 
 - Local development environment with Vagrant
@@ -61,11 +62,11 @@ $ mkdir example.com && cd example.com
 ```
 2. Install Trellis:
 ```plain
-$ git clone --depth=1 git@github.com:roots/trellis.git && rm -rf trellis/.git
+$ git clone --depth=1 git@github.com:online-training-systems/trellis.git && rm -rf trellis/.git
 ```
 3. Install Bedrock into the `example` directory:
 ```plain
-$ composer create-project roots/bedrock example
+$ git clone --depth=1 git@github.com:online-training-systems/bedrock.git example && rm -rf example/.git
 ```
 
 ## Local development setup
