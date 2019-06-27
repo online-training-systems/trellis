@@ -47,7 +47,7 @@ The recommended directory structure for a Trellis project looks like:
 ```shell
 example.com/      # → Root folder for the project
 ├── trellis/      # → Your clone of this repository
-└── site/         # → A Bedrock-based WordPress site
+└── example/         # → A Bedrock-based WordPress site
     └── web/
         ├── app/  # → WordPress content directory (themes, plugins, etc.)
         └── wp/   # → WordPress core (don't touch!)
@@ -63,9 +63,9 @@ $ mkdir example.com && cd example.com
 ```plain
 $ git clone --depth=1 git@github.com:roots/trellis.git && rm -rf trellis/.git
 ```
-3. Install Bedrock into the `site` directory:
+3. Install Bedrock into the `example` directory:
 ```plain
-$ composer create-project roots/bedrock site
+$ composer create-project roots/bedrock example
 ```
 
 ## Local development setup
